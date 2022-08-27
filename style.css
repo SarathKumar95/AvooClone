@@ -22,8 +22,7 @@
 .navbar{
     display: flex;
     justify-content: space-evenly;
-    background: rgb(52,187,84);
-    background: linear-gradient(90deg, rgba(52,187,84,1) 0%, rgba(6,159,157,1) 70%); 
+    background: var(--body-bg);
     color: white;
     
 }
@@ -41,7 +40,7 @@
 #activate-button{
     width: 150px;
     height: 45px;
-    color: #34bb54;
+    color: var(--button-textc);
     background-color: #fff;
     border: none;
     font-size: var(--button-fonts);
@@ -58,5 +57,19 @@
 }
 
 /* nav ends */
+
+.header-container{
+    display: flex;
+    background: var(--body-bg);
+    
+}
+
+.hc-left{
+    margin-left: 20%;
+}
+
+.hc-left h2,p{
+    color: #fff;
+}
 
 /* header end */
