@@ -76,6 +76,73 @@ html,body{
 
 .hc-left h2,p{
     color: #fff;
+    
 }
+
+
+
+/* card starts */
+
+.card{
+    background-color: #fff;
+    width: 450px;
+    height: 400px;
+    border-radius: 8px;
+    padding-left: 30px;
+    padding-right: 30px;    
+    
+}
+
+.card-body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 25px;
+
+
+}
+
+
+.card-title,.card-text,.card p{
+    color: var(--text-blue);
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.unlimited{
+    font-weight: bold;
+}
+
+
+
+
+.card button{
+    width: 350px;
+    height: 60px;
+    background-color: var(--button-textc);
+    color: #fff;
+    border: var(--button-textc);
+    border-radius: 4px;
+    font-weight: bold;
+    font-size: large;
+    
+}
+
+.card h2{
+    font-size: xxx-large;
+    font-weight: bolder;
+}
+
+
+.card button:hover{
+    background-color: #fff;
+    color: var(--button-textc);
+    border:solid 2px var(--button-textc);
+
+}
+
+
+/* card ends */
+
 
 /* header end */
