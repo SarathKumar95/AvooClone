@@ -7,6 +7,12 @@
     font-family:'Lato', sans-serif;
 }
 
+html,body{
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+
 /* header starts */
 
 
