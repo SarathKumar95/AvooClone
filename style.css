@@ -127,7 +127,7 @@ html,body{
 }
 
 .unlimited{
-    font-weight: bold;
+    font-weight: 900;
 }
 
 
@@ -147,23 +147,20 @@ html,body{
 
 .card h2{
     font-size: xxx-large;
-    font-weight: bolder;
+    font-weight: 500;
 }
 
 .card h3{
     font-size: xx-large;
     background-image: var(--body-bg);
-    -webkit-background-clip: text;
-    -webkit-te
+    
 
 }
 
 .card p{
     font-size: large;
-    font-weight: bold;
-    margin-top: 20px;
-    margin-bottom: 20px;
 }
+
 
 .card-features{
     margin-right: 150px;
