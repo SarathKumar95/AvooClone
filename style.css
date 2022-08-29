@@ -234,9 +234,9 @@ html,body{
 
 }
 
-.section-container{
+#section-container1{
     width: 100%;
-    height: 200px;
+    height: 250px;
     background: var(--body-bg);
     margin-top: 50px;
     color: #fff;
@@ -246,14 +246,15 @@ html,body{
     
 }
 
-.section-container h3{
+#section-container1 h3{
     font-size: xx-large;
     font-weight: 900;
     padding-top: 15px;
 }
 
-.section-container p{
+#section-container1 p{
     margin-top: 5px;
+    font-size: large;
 }
 
 #activate-button2{
@@ -262,6 +263,7 @@ html,body{
     padding-top: 5px;
     margin-top: 50px;
     width: 180px;
+    height: 50px;
 
 }
 
