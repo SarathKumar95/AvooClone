@@ -55,6 +55,11 @@ html,body{
     
 }
 
+.hamburger{
+    display: none;
+
+}
+
 
 
 .nav-list li{
@@ -67,9 +72,10 @@ html,body{
 .header-container{
     display: flex;
     background: var(--body-bg);
-    gap: 100px;
+    gap: 200px;
     
 }
+
 
 .hc-left{
     margin-left: 20%;
@@ -92,7 +98,7 @@ html,body{
     margin-top: 3%;
 }
 
-#fiveg-img{
+#fiveg-div{
     margin-left:-100px;
 }
 
@@ -178,3 +184,150 @@ html,body{
 
 
 /* header end */
+
+
+
+/* media query under 1000px */
+
+
+@media screen and (max-width:1000px) {
+    .header-container{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .navbar{
+        margin-left: -25%;
+    }
+
+    #logo{
+        width: auto;
+    }
+
+    .nav-list{
+        display: none;
+    }
+
+    
+    .hc-right{
+        margin: auto auto;
+        margin-top: -100px;
+    }
+
+    #logo{
+        width: 80px;
+        height: 100px;
+        padding-top: 10%;
+        padding-bottom: 10%;
+        margin-left: auto;
+    }
+
+    .hc-left h2{
+        font-size: xx-large;
+        
+    }
+
+    .hc-left p{
+        font-size: medium;
+        
+    }
+
+
+    
+#fiveg-img{
+    width: 100%;
+}
+
+#fiveg-div{
+    margin-left: -30%;
+    margin-top: 10%;
+}
+
+    
+    
+}
+
+
+/* media query under 500px */
+
+@media screen and (max-width:500px) {
+
+    .header-container{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .hc-left h2{
+
+    }
+
+    .hc-left h2,p{
+        margin-left: -10%;
+    }
+
+    .nav-list{
+        display: none;
+    }
+
+    #logo{
+        width: 80px;
+        height: 100px;
+        padding-top: 10%;
+        padding-bottom: 10%;
+        margin-left: auto;
+    }
+
+
+    
+#fiveg-img{
+    width: 100%;
+}
+
+#fiveg-div{
+    margin-left: -30%;
+    margin-top: 10%;
+}
+
+
+.card{
+    width: 90%;
+    height: 75%;
+    margin-left: 5%;
+    margin-top: -20px;   
+}
+
+.card-features{
+      margin-left: auto;
+}
+
+.card-features p{
+    line-height: 20px;
+    font-size: medium;
+}
+
+
+.card button{
+    width: 100%;
+    height: 65px;
+    
+    
+}
+
+
+
+
+
+
+    
+    
+}
+
+
+    
+
+
+
+
+/* media query ends */
