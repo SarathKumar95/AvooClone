@@ -280,7 +280,7 @@ html,body{
 }
 
 .card-1 img{
-    margin-bottom: 2px;
+    margin-bottom: 12px;
 }
 
 .card-1 .card-body{
@@ -305,6 +305,14 @@ html,body{
     font-weight: 900;
     text-align: center;
     color: var(--text-dark-blue);
+    margin-bottom: 50px;
+
+}
+
+.grid-container{
+    display: grid;
+    grid-template-columns: repeat(2,400px);
+    justify-content: center;
 
 }
 
