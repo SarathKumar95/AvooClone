@@ -1,4 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@700&display=swap');
+
+
+
 
 *{
     margin: 0;
@@ -187,6 +191,44 @@ html,body{
 
 /* header end */
 
+/* main starts */
+
+
+.container-text{
+    text-align:center;
+        
+}
+
+.container-text h2{
+    font-size: xxx-large;
+    margin-bottom: 8px;
+    font-weight: 700;
+}
+
+.container-text h3{
+    font-weight: lighter;
+}
+
+
+/* main ends */
+
+
+
+@media screen and (max-width:1300px) {
+    .header-container{
+        margin-left: -10%;
+    }
+
+    .hc-right{
+        margin-left: -12%;
+    }
+
+    
+}
+
+
+
+
 
 
 /* media query under 1000px */
@@ -270,7 +312,7 @@ html,body{
 
 
     .hc-left h2,p{
-        margin-left: -20%;
+        margin-left: -8%;
     }
 
     .nav-list{
@@ -288,19 +330,19 @@ html,body{
 
     
 #fiveg-img{
-    width: 100%;
+    width: 80%;
 }
 
 #fiveg-div{
-    margin-left: -30%;
     margin-top: 10%;
+    margin-left: -50%;
 }
 
 
 .card{
-    width: 90%;
+    width: 85%;
     height: 75%;
-    margin-left: 5%;
+    margin-left: 50px;
     margin-top: -20px; 
     margin-bottom: 50px;  
 }
@@ -321,6 +363,16 @@ html,body{
     
     
 }
+
+
+.container-text h2{
+    font-size: x-large;
+}
+
+.container-text h3{
+    font-size: medium;
+}
+
 
 
 
