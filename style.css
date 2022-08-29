@@ -16,6 +16,7 @@ html,body{
 /* header starts */
 
 
+
 /* nav here */
 
 #logo{
@@ -112,7 +113,8 @@ html,body{
     height: 450px;
     border-radius: 8px;
     padding-left: 30px;
-    padding-right: 30px;    
+    padding-right: 30px; 
+    padding-top: 2px;   
     
 }
 
@@ -195,6 +197,7 @@ html,body{
         display: flex;
         flex-direction: column;
         justify-content: center;
+        
     }
 
     .navbar{
@@ -236,13 +239,19 @@ html,body{
 
     
 #fiveg-img{
-    width: 100%;
+    width: 75%;
+    margin-left: 100px;
 }
 
 #fiveg-div{
     margin-left: -30%;
     margin-top: 10%;
 }
+
+.card{
+    margin-bottom: 30px;
+}
+
 
     
     
@@ -259,12 +268,9 @@ html,body{
         justify-content: center;
     }
 
-    .hc-left h2{
-
-    }
 
     .hc-left h2,p{
-        margin-left: -10%;
+        margin-left: -20%;
     }
 
     .nav-list{
@@ -295,11 +301,12 @@ html,body{
     width: 90%;
     height: 75%;
     margin-left: 5%;
-    margin-top: -20px;   
+    margin-top: -20px; 
+    margin-bottom: 50px;  
 }
 
 .card-features{
-      margin-left: auto;
+      margin-left: 10%;
 }
 
 .card-features p{
