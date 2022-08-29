@@ -273,6 +273,28 @@ html,body{
 }
 
 
+.card-1{
+    border: 1px solid grey;
+    padding-left: 10px;
+    padding-top: 10px;
+}
+
+.card-1 .card-body{
+    padding-right: 100px;
+}
+
+.card-1 .card-title{
+    margin-bottom: -10px;
+    font-size: x-large;
+}
+
+.card-1 .card-text{
+    font-size: smaller;
+    white-space: nowrap;
+}
+
+
+
 /* main ends */
 
 /* media screen */
