@@ -1,5 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@900&display=swap');
+
 
 
 
@@ -209,10 +211,32 @@ html,body{
     font-weight: lighter;
 }
 
+.card-wrapper p{
+    color: black;
+}
+
+.card-wrapper button{
+    width: 220px;
+    height: 55px;
+    background-color: #fff;
+    color:var(--button-textc);
+    border: solid var(--button-textc);
+    border-radius: 4px;
+    font-weight: 900;
+    font-size: large;
+    margin-top: 20px;
+    
+}
+
+.card-wrapper button:hover{
+    color: white;
+    background-color: var(--button-textc);
+
+}
 
 /* main ends */
 
-
+/* media screen */
 
 @media screen and (max-width:1300px) {
     .header-container{
