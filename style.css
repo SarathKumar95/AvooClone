@@ -313,12 +313,23 @@ html,body{
 
 }
 
+#section-container2{
+    margin-top: 20px;
+}
+
 .grid-container{
     display: grid;
     grid-template-columns: repeat(2,400px);
     justify-content: center;
 
 }
+
+.grid-container .card-1{
+    width: 25rem;
+
+}
+
+
 
 
 
@@ -416,6 +427,13 @@ html,body{
 }
 
 
+.grid-container{
+    grid-template-columns: 1fr;
+    grid-template-rows: 2fr 2fr 2fr 2fr 2fr 2fr ;
+    margin:auto 50%;
+}
+
+
     
     
 }
@@ -502,6 +520,17 @@ html,body{
 #section-container1 p{
     font-size: large;
     margin: auto 15px;
+}
+
+.grid-container .card-1{
+    
+    width: 20rem;
+
+}
+
+.grid-container .card-1 h6{
+    font-size: small;
+    margin:20px auto;
 }
 
 
