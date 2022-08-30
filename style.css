@@ -457,6 +457,26 @@ html,body{
 .accordion-item button{
     font-size: large;
     font-weight: 700;
+    
+}
+
+#morefaq{
+    display: block;
+    margin: 5% auto;
+    width: 220px;
+    height: 55px;
+    background-color:var(--button-textc);
+    color:#fff;
+    border: solid #fff;
+    border-radius: 4px;
+    font-weight: 900;
+    font-size: large;
+}
+
+#morefaq:hover{
+    background-color: #fff;
+    border-color:var(--button-textc);
+    color: var(--button-textc);
 }
 
 
@@ -494,6 +514,10 @@ html,body{
 
     .sc-3-items .connector{
         display: none;
+    }
+
+    .sc-3-items{
+        display: block;
     }
 
     #section-container3 button{
@@ -572,7 +596,7 @@ html,body{
 }
 
 .card-one{
-    margin-bottom: 30px;
+    margin:30px 10%;
 }
 
 #section-container1{
@@ -596,7 +620,13 @@ html,body{
     margin: 0px 20%;
 }
 
+.faq-container{
+    margin-left: -25%;
+}
 
+#morefaq{
+    margin-left: 40%;
+}
     
     
 }
@@ -716,6 +746,16 @@ html,body{
 .sc-3-items{
     margin: 0px 5%;
 }
+
+.faq-container {
+    margin-left: -30%;
+    
+}
+
+#morefaq{
+    margin-left: 20%;
+}
+
 
 
 
