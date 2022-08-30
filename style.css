@@ -394,7 +394,7 @@ html,body{
 
 .sc-3-image{
     margin-left: 15%;
-    margin-top: 10%;
+    margin-top: 5%;
 }
 
 .sc-3-items{
@@ -411,7 +411,7 @@ html,body{
 
 #section-container3 button{
     display: block;
-    margin: 50px auto;
+    margin: 5% auto;
     width: 220px;
     height: 55px;
     background-color: #fff;
