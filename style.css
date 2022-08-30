@@ -225,6 +225,9 @@ html,body{
     font-weight: 900;
     font-size: large;
     margin-top: 20px;
+    display: block;
+    margin: auto;
+
     
 }
 
@@ -242,6 +245,7 @@ html,body{
     color: #fff;
     display: flex;
     justify-content: space-evenly;
+    flex-wrap: wrap;
     padding-top: 30px;
     
 }
@@ -402,6 +406,15 @@ html,body{
     margin-bottom: 30px;
 }
 
+#section-container1{
+    height: 300px;
+}
+
+
+#section-container1 button{
+    margin-top: 20px;
+}
+
 
     
     
@@ -479,6 +492,16 @@ html,body{
 
 .container-text h3{
     font-size: medium;
+}
+
+#section-container1 h3{
+    font-size: x-large;
+    margin: 5px 15px;
+}
+
+#section-container1 p{
+    font-size: large;
+    margin: auto 15px;
 }
 
 
