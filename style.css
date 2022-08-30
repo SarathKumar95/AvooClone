@@ -435,6 +435,35 @@ html,body{
     color: #fff;
 }
 
+.accordion-body p{
+    color: var(--text-dark-blue);
+    margin-left: 0px 5%;
+}
+
+
+#section-container4 .faq-container h2{
+    margin-left: 40%;
+    margin-top: 2%;
+    font-size: xx-large;
+    font-weight: 900; 
+}
+
+.accordion{
+    width: 70%;
+    margin-top: 2%;
+    margin-left: 20%;
+}
+
+.accordion-item button{
+    font-size: large;
+    font-weight: 700;
+}
+
+
+
+
+
+
 
 
 
