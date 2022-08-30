@@ -329,6 +329,108 @@ html,body{
 
 }
 
+#section-container2 button{
+    display: block;
+    margin: 20px auto;
+    width: 220px;
+    height: 55px;
+    background-color: #fff;
+    color:var(--button-textc);
+    border: solid var(--button-textc);
+    border-radius: 4px;
+    font-weight: 900;
+    font-size: large;
+
+}
+
+#section-container2 button:hover{
+    background-color: var(--button-textc);
+    color: white;
+}
+
+#section-container3{
+
+    width: 100%;
+    height: 700px;
+    background: var(--body-bg);
+    color: #fff;
+    
+    
+
+}
+
+#section-container3 .sc-3-text{
+    text-align: center;
+
+}
+
+.sc-3-text h3{
+    font-size: xxx-large;
+    font-weight: 900;
+    padding-top: 30px;
+    padding-bottom: 10px;
+}
+
+.sc-3-text h5{
+    font-size: larger;
+    
+}
+
+
+
+.sc3-item img{
+    margin: 20px 100px;
+
+}
+
+
+.sc3-item p{
+    font-size: larger;
+    font-weight: 900;
+}
+
+
+
+
+.sc-3-image{
+    margin-left: 15%;
+    margin-top: 10%;
+}
+
+.sc-3-items{
+    display: flex;
+    gap: 1px;
+    flex-wrap: wrap;
+}
+
+#item-2{
+    position: relative;
+    left: 15px;
+
+}
+
+#section-container3 button{
+    display: block;
+    margin: 50px auto;
+    width: 220px;
+    height: 55px;
+    background-color: #fff;
+    color:var(--text-dark-blue);
+    border: solid #fff;
+    border-radius: 4px;
+    font-weight: 900;
+    font-size: large;
+
+}
+
+#section-container3 button:hover{
+    background-color: var(--button-textc);
+    border-color:var(--button-textc);
+    color: #fff;
+}
+
+
+
 
 
 
@@ -344,6 +446,19 @@ html,body{
 
     .hc-right{
         margin-left: -12%;
+    }
+
+    #section-container3{
+        height: auto;
+    }
+
+    .sc-3-items{
+        display: block;
+        margin: 0px 30%;
+    }
+
+    .sc-3-items .connector{
+        display: none;
     }
 
     
@@ -431,6 +546,11 @@ html,body{
     grid-template-columns: 1fr;
     grid-template-rows: 2fr 2fr 2fr 2fr 2fr 2fr ;
     margin:auto 50%;
+}
+
+.sc-3-items{
+    display: block;
+    margin: 0px 20%;
 }
 
 
@@ -532,6 +652,27 @@ html,body{
     font-size: small;
     margin:20px auto;
 }
+
+.sc-3-text h3{
+    font-size: xx-large;
+    font-weight: 900;
+}
+
+.sc-3-text h5{
+    font-size: medium;
+}
+
+.sc3-item p{
+    font-size: medium;
+    font-weight: 900;
+    margin-left: 5%;
+}
+
+
+.sc-3-items{
+    margin: 0px 5%;
+}
+
 
 
 
