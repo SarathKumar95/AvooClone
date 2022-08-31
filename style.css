@@ -79,13 +79,14 @@ html,body{
 .header-container{
     display: flex;
     background: var(--body-bg);
-    gap: 200px;
+    gap: 150px;
+    
     
 }
 
 
 .hc-left{
-    margin-left: 20%;
+    margin-left: 5%;
     
     
 }
@@ -382,6 +383,10 @@ html,body{
     
 }
 
+.sc3-item{
+    width: 15%;
+}
+
 
 
 .sc3-item img{
@@ -407,6 +412,7 @@ html,body{
     display: flex;
     gap: 1px;
     flex-wrap: wrap;
+    margin-left: -125px;
 }
 
 #item-2{
@@ -417,7 +423,7 @@ html,body{
 
 #section-container3 button{
     display: block;
-    margin: 5% auto;
+    margin: 1% auto;
     width: 220px;
     height: 55px;
     background-color: #fff;
@@ -479,6 +485,75 @@ html,body{
     color: var(--button-textc);
 }
 
+.payment-container{
+    text-align: center;
+    margin-bottom: 20%;
+}
+
+
+.payment-container h2{
+    margin-bottom: 4%;
+    font-weight: 900;
+
+
+}
+
+.pc-left{
+    float: left;
+    margin-left: 20%;
+    
+}
+
+.pc-right{
+    float: right;
+    margin-right: 20%;
+}
+
+.download-container{
+    background: var(--body-bg);
+    color: #fff;
+    text-align: center;
+    min-height: 300px;
+}
+
+.download-container h2{
+    font-weight: 900;
+    font-size: xxx-large;
+    margin: 20px auto;
+}
+
+.download-container-img{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin-top: 30px;
+}
+
+footer{
+    color: var(--text-dark-blue);
+}
+
+.footer-list{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin-top: 10px;
+}
+
+.footer-list lh{
+    font-size: x-large;
+    font-weight: 900;
+}
+
+.list-group li{
+    list-style-type: none;
+    line-height: 30px;
+}
+
+
+
+
+
 
 
 
@@ -493,6 +568,7 @@ html,body{
 /* main ends */
 
 /* media screen */
+
 
 @media screen and (max-width:1300px) {
     .header-container{
@@ -573,6 +649,10 @@ html,body{
         margin-left: auto;
     }
 
+    .hc-left{
+        margin: 0px 125px;
+    }
+
     .hc-left h2{
         font-size: xx-large;
         
@@ -618,6 +698,7 @@ html,body{
 .sc-3-items{
     display: block;
     margin: 0px 20%;
+
 }
 
 .faq-container{
@@ -645,8 +726,9 @@ html,body{
 
 
     .hc-left h2,p{
-        margin-left: -8%;
+        margin-left: 8%;
     }
+
 
     .nav-list{
         display: none;
@@ -660,22 +742,16 @@ html,body{
         margin-left: auto;
     }
 
-
-    
-#fiveg-img{
-    width: 80%;
-}
-
-#fiveg-div{
-    margin-top: 10%;
-    margin-left: -50%;
-}
+    #fiveg-div{
+        margin-top: 10%;
+        margin-left: -25%;
+    }
 
 
 .card-one{
     width: 80%;
     height: 75%;
-    margin-left: 10%;
+    margin-left: 15%;
     margin-top: -20px; 
     margin-bottom: 50px;  
 }
