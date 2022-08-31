@@ -550,6 +550,38 @@ footer{
     line-height: 30px;
 }
 
+#socialmedia{
+    display: flex;
+    justify-content:flex-end;
+    gap: 10px;
+    padding-right: 10%;
+    
+}
+
+#socialmedia button{
+    height: 35px;
+    width: 35px;
+    border-radius: 0px 20px 20px;
+    border:1px solid #46af5a;
+    background-color: white;
+    color: #46af5a;
+}
+
+#socialmedia button:hover{
+    background-color: #46af5a;
+    color: #fff;
+}
+
+.email-container{
+    text-align: center;
+    margin-top: 20px;
+}
+
+.email-container p{
+    color: var(--text-dark-blue);
+    line-height: 5px;
+}
+
 
 
 
