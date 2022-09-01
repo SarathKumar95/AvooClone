@@ -129,9 +129,15 @@ html,body{
     display: flex;
     flex-direction: column;
     align-items: center;
-    
+}
 
-
+.card-body h3{
+    background: rgb(41,182,76);
+    background: linear-gradient(121deg, rgba(41,182,76,1) 39%, rgba(22,91,94,1) 60%, rgba(12,48,55,1) 71%); 
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color:transparent;
+    font-weight: 900;
 }
 
 
