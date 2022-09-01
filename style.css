@@ -40,9 +40,6 @@ html,body{
     
 }
 
-.nav-right{
-    margin-top: 25px;
-}
 
 .nav-list li{
     display: inline-flex;
@@ -64,8 +61,15 @@ html,body{
 
 .hamburger{
     display: none;
+    background-color: var(--body-bg);
+    border: none;
+    font-size: xx-large;
+    color: #fff;
 
 }
+
+
+
 
 
 
@@ -640,6 +644,11 @@ footer{
         top: -20px;
         
 
+    }
+
+    .hamburger{
+        display: block;
+        cursor: pointer;
     }
 
     
