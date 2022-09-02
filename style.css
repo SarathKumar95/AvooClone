@@ -32,7 +32,7 @@ html,body{
     border: none;
     font-size: var(--button-fonts);
     border-radius: 8px;
-    cursor: pointer;
+    margin-top:-5px;
     
 }
 
