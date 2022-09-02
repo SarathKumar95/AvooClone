@@ -24,33 +24,6 @@ html,body{
 
 
 /* nav here */
-
-#logo{
-    width: 80px;
-    height: 100px;
-    padding-top: 10%;
-    padding-bottom: 10%;
-}
-
-.navbar1{
-    display: flex;
-    justify-content: space-evenly;
-    background: var(--body-bg);
-    color: white;
-    
-}
-
-.nav-list{
-    margin-top: 20px;
-}
-
-
-.nav-list li{
-    display: inline-flex;
-    margin-left: 30px;
-    cursor: pointer;
-}
-
 .activate-button{
     width: 150px;
     height: 45px;
@@ -63,19 +36,10 @@ html,body{
     
 }
 
-.hamburger{
-    display: none;
-    background-color: var(--body-bg);
-    border: none;
-    font-size: xx-large;
-    color: #fff;
 
-}
 
-.nav-list li{
-    list-style-type: none;
-    font-size: var(--fonts-s);
-}
+
+
 
 /* nav ends */
 
@@ -150,6 +114,11 @@ html,body{
 
 .unlimited{
     font-weight: 900;
+}
+
+
+.card-one #to{
+    color: var(--text-dark-blue);
 }
 
 
@@ -641,309 +610,8 @@ footer{
     margin: 50px auto;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /* main ends */
 
-/* media screen */
 
 
-@media screen and (max-width:1300px) {
-    .header-container{
-        margin-left: -10%;
-    }
 
-    .hc-right{
-        margin-left: -12%;
-    }
-
-    #section-container3{
-        height: auto;
-    }
-
-    .sc-3-items{
-        display: block;
-        margin: 0px 30%;
-    }
-
-    .sc-3-items .connector{
-        display: none;
-    }
-
-    .sc-3-items{
-        display: block;
-    }
-
-    #section-container3 button{
-        margin-top: 10%;
-        position: relative;
-        top: -20px;
-        
-
-    }
-
-    .hamburger{
-        display: block;
-        cursor: pointer;
-    }
-
-    
-}
-
-
-
-
-
-
-/* media query under 1000px */
-
-
-@media screen and (max-width:1000px) {
-    .header-container{
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        
-    }
-
-    .navbar{
-        margin-left: -25%;
-    }
-
-    #logo{
-        width: auto;
-    }
-
-    .nav-list{
-        display: none;
-    }
-
-    
-    .hc-right{
-        margin: auto auto;
-        margin-top: -100px;
-    }
-
-    #logo{
-        width: 80px;
-        height: 100px;
-        padding-top: 10%;
-        padding-bottom: 10%;
-        margin-left: auto;
-    }
-
-    .hc-left{
-        margin: 0px 125px;
-    }
-
-    .hc-left h2{
-        font-size: xx-large;
-        
-    }
-
-    .hc-left p{
-        font-size: medium;
-        
-    }
-
-
-    
-#fiveg-img{
-    width: 75%;
-    margin-left: 100px;
-}
-
-#fiveg-div{
-    margin-left: -30%;
-    margin-top: 10%;
-}
-
-.card-one{
-    margin:30px 10%;
-}
-
-#section-container1{
-    height: 300px;
-}
-
-
-#section-container1 button{
-    margin-top: 20px;
-}
-
-
-.grid-container{
-    grid-template-columns: 1fr;
-    grid-template-rows: 2fr 2fr 2fr 2fr 2fr 2fr ;
-    margin:auto 50%;
-}
-
-.sc-3-items{
-    display: block;
-    margin: 0px 20%;
-
-}
-
-.faq-container{
-    margin-left: -25%;
-}
-
-#morefaq{
-    margin-left: 40%;
-}
-    
-    
-}
-
-
-/* media query under 500px */
-
-@media screen and (max-width:500px) {
-
-    .header-container{
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        margin-bottom: 20px;
-    }
-
-
-    .hc-left h2,p{
-        margin-left: 8%;
-    }
-
-
-    .nav-list{
-        display: none;
-    }
-
-    #logo{
-        width: 80px;
-        height: 100px;
-        padding-top: 10%;
-        padding-bottom: 10%;
-        margin-left: auto;
-    }
-
-    #fiveg-div{
-        margin-top: 10%;
-        margin-left: -25%;
-    }
-
-
-.card-one{
-    width: 80%;
-    height: 75%;
-    margin-left: 15%;
-    margin-top: -20px; 
-    margin-bottom: 50px;  
-}
-
-.card-features{
-      margin-left: 50%;
-}
-
-.card-features p{
-    line-height: 20px;
-    font-size: medium;
-}
-
-
-.card-one button{
-    width: 100%;
-    height: 65px;
-    
-    
-}
-
-
-.container-text h2{
-    font-size: x-large;
-    
-}
-
-.container-text h3{
-    font-size: medium;
-}
-
-#section-container1 h3{
-    font-size: x-large;
-    margin: 5px 15px;
-}
-
-#section-container1 p{
-    font-size: large;
-    margin: auto 15px;
-}
-
-.grid-container .card-1{
-    
-    width: 20rem;
-
-}
-
-.grid-container .card-1 h6{
-    font-size: small;
-    margin:20px auto;
-}
-
-.sc-3-text h3{
-    font-size: xx-large;
-    font-weight: 900;
-}
-
-.sc-3-text h5{
-    font-size: medium;
-}
-
-.sc3-item p{
-    font-size: medium;
-    font-weight: 900;
-    margin-left: 5%;
-}
-
-
-.sc-3-items{
-    margin: 0px 5%;
-}
-
-.faq-container {
-    margin-left: -30%;
-    
-}
-
-#morefaq{
-    margin-left: 20%;
-}
-
-
-
-
-
-
-
-
-
-    
-    
-}
-
-
-    
-
-
-
-
-/* media query ends */
