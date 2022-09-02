@@ -40,6 +40,10 @@ html,body{
     
 }
 
+.nav-list{
+    margin-top: 20px;
+}
+
 
 .nav-list li{
     display: inline-flex;
@@ -68,11 +72,6 @@ html,body{
 
 }
 
-
-
-
-
-
 .nav-list li{
     list-style-type: none;
     font-size: var(--fonts-s);
@@ -83,9 +82,7 @@ html,body{
 .header-container{
     display: flex;
     background: var(--body-bg);
-    gap: 150px;
-    
-    
+    gap: 150px;   
 }
 
 
@@ -179,8 +176,6 @@ html,body{
 .card-one h3{
     font-size: xx-large;
     background-image: var(--body-bg);
-    
-
 }
 
 .card-one p{
@@ -592,6 +587,38 @@ footer{
     line-height: 5px;
 }
 
+.card-heads{
+    text-align: center;
+    
+}
+
+.card-heads .card-subtitle{
+    font-size: xx-large;
+    font-weight: 900;
+}
+
+.card-heads h6{
+    font-weight: 700;
+}
+
+.card-body h5{
+    font-size: xx-large;
+    font-weight: bold;
+
+}
+
+
+
+.card-inside{
+    display: flex;
+    gap: 10px;
+    row-gap: 2px;
+}
+
+.card-inside a{
+    color: #000;
+    text-decoration: none;
+}
 
 
 
