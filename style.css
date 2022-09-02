@@ -215,12 +215,13 @@ html,body{
 
 .container-text h2{
     font-size: xxx-large;
-    margin-bottom: 8px;
+    margin: 12px auto;
     font-weight: 700;
 }
 
 .container-text h3{
     font-weight: lighter;
+    margin: 35px auto;
 }
 
 .card-wrapper p{
@@ -299,13 +300,14 @@ html,body{
     margin-bottom: 12px;
 }
 
-.card-1 .card-body{
+.card-1 .card-1-body{
     padding-right: 100px;
 }
 
 .card-1 .card-title{
     margin-bottom: -10px;
     font-size: x-large;
+    color: var(--text-dark-blue);
 
 }
 
@@ -869,6 +871,7 @@ footer{
 
 .container-text h2{
     font-size: x-large;
+    
 }
 
 .container-text h3{
