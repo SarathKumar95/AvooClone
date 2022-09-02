@@ -38,9 +38,6 @@ html,body{
 
 
 
-
-
-
 /* nav ends */
 
 .header-container{
@@ -615,3 +612,10 @@ footer{
 
 
 
+/* media query here */
+
+@media all and (max-width:1300px){
+    .hc-left h2{
+        font-size: xx-large;
+    }
+}
