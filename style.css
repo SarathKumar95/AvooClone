@@ -43,29 +43,30 @@ html,body{
 .header-container{
     display: flex;
     background: var(--body-bg);
-    gap: 150px;   
+    gap: 250px;
+    color: var(--text-white);   
 }
 
 
 .hc-left{
-    margin-left: 5%;
+    margin-left: 10%;
     
     
 }
 
 .hc-left h2{
-    font-size: xxx-large;
+    font-size: var(--font-p);
+    font-weight: 900;
     
 }
 
-.hc-left h2,p{
-    color: #fff;
-    margin-top: 2%;
+.hc-left p{
+    font-size: var(--font-s);
     
 }
 
 .hc-left,.hc-right{
-    margin-top: 3%;
+    margin-top: 5%;
 }
 
 #fiveg-div{
@@ -73,17 +74,87 @@ html,body{
 }
 
 
+@media (max-width:1600px) {
+    .hc-left{
+        margin-left: 50px;
+
+    }
+
+    .hc-right{
+        margin-left: -75px;
+    }
+
+    .header-container{
+        height: 900px;
+    }
+}
+
+@media (max-width:1500px){
+    .hc-left h2{
+        font-size: xxx-large;
+    }
+
+    .hc-left p{
+        font-size: x-large;
+
+    }
+
+    #fiveg-img{
+        width: 400px;
+        margin-left: 250px;
+    }
+
+    .hc-right .card-body{
+        width: 425px;
+    }
+
+
+    .header-container{
+        display: flex;
+        flex-direction: column;
+        height: 1400px;
+        margin-bottom: 30px;
+    }
+
+    .hc-left{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .hc-left img{
+        width: 70%;
+
+    }
+
+
+
+    .hc-right{
+        display: block;
+        margin-left:auto;
+        margin-right:auto;
+        margin-top:-100px;
+    }
+
+    .hc-right .card-one{
+        width: 500px;
+    }
+
+    .card-one .card-body{
+        margin: 0px auto;
+    }
+}
+
+
+
 
 /* card starts */
 
 .card-one{
     background-color: #fff;
-    width: 450px;
-    height: 450px;
-    border-radius: 8px;
-    padding-left: 30px;
-    padding-right: 30px; 
-    padding-top: 2px;   
+    width: 400px;
+    height: 500px;
+    border-radius: 10px;    
     
 }
 
@@ -229,6 +300,8 @@ html,body{
     
 }
 
+
+
 #section-container1 h3{
     font-size: xx-large;
     font-weight: 900;
@@ -304,6 +377,8 @@ html,body{
 
 }
 
+
+
 .grid-container .card-1{
     width: 25rem;
 
@@ -329,8 +404,6 @@ html,body{
 }
 
 #section-container3{
-
-    width: 100%;
     height: 700px;
     background: var(--body-bg);
     color: #fff;
@@ -338,6 +411,8 @@ html,body{
     
 
 }
+
+
 
 #section-container3 .sc-3-text{
     text-align: center;
@@ -419,13 +494,22 @@ html,body{
     margin-left: 0px 5%;
 }
 
+#section-container4{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
 
 #section-container4 .faq-container h2{
-    margin-left: 40%;
-    margin-top: 2%;
+    text-align: center;
     font-size: xx-large;
     font-weight: 900; 
+    margin-top: 50px;
+
 }
+
+
 
 .accordion{
     width: 70%;
@@ -598,13 +682,21 @@ footer{
     row-gap: 2px;
 }
 
-.card-inside a{
+.card-inside p{
     color: #000;
     text-decoration: none;
 }
 
 #more-plans-button{
     margin: 50px auto;
+}
+
+@media (max-width:1500px){
+    .card-inside p{
+        font-size: medium;
+        margin-left: 0px;
+        white-space: nowrap;
+    }
 }
 
 /* main ends */

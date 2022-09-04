@@ -1,10 +1,11 @@
 :root{
     --font-p:50px;
-    --fonts-s:20px;
+    --fonts-s:30px;
     --button-fonts:18px;
     --body-bg: linear-gradient(90deg, rgba(52,187,84,1) 0%, rgba(6,159,157,1) 70%);     
     --button-textc:#34bb54;
     --text-blue:#004a80;
     --text-dark-blue:#081e25;
+    --text-white:#fff;
 
 }
