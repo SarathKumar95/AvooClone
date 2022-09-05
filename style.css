@@ -1159,5 +1159,24 @@ footer{
     .grid-container .card-1{
         width: 350px;
     }
+
+    .grid-container .card-1 .card-1-body{
+        margin: 10px auto;
+    }
+}
+
+@media(max-width:768px){
+
+    .swiper-slide .price-card .card{
+        width: 250px;
+            
+    }
+
+    .swiper-slide .price-card .card button{
+        font-size: small;
+        width: 120px;
+        height: 30px;
+    }
+    
 }
 
