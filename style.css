@@ -1006,11 +1006,151 @@ footer{
     .email-container p{
         font-size: small;
     }
+    
+}
+
+
+/* media query under 300px */
+
+
+@media (max-width:380px){
+
+    .header-container{
+        padding-top: 10%;
+        height: 700px;
+    }
+
+    .hc-left h2{
+        font-size: medium;
+    }
+
+    .hc-left p{
+        font-size: smaller;
+    }
+
+    .hc-left img{
+        width: 80%;
+    }
+
+    .hc-right .card-one{
+        width: 220px;
+        
+    }
+
+    .hc-right .card-one .card-body{
+        display: block;
+        margin: 0px -50px;
+        text-align: center;
+    }
+
+    .hc-right .card-one button{
+        font-size: small;
+        width: 70%;
+        height: 35px;
+    }
+
+    .hc-right .card-one .card-body h2{
+        font-size: medium;
+    }
+
+    .hc-right .card-one .card-body h3{
+        font-size: small;
+    }
+
+    .hc-right .card-one .card-body p{
+        font-size: smaller;
+    }
+
+    .card-one .card-body button{
+        font-size: medium;
+
+    }
+
+    .card-one .card-features{
+        font-size: smaller;
+    }
+
+    .container-text h2{
+        font-size: medium;
+    }
+
+    .container-text h3{
+        font-size: small;
+    }
+
+    .card-wrapper{
+        height: auto;
+        width: auto;
+    }
+
+    .card-wrapper button{
+        font-size: small;
+        width: 120px;
+    }
+
+    #section-container1{
+        height: 200px;
+    }
+
+    #section-container1 .sc-left h3{
+        font-size: small;
+    }
+
+    #section-container1 .sc-left p{
+        font-size: x-small;
+    }
+
+    #section-container1 .sc-right  #activate-button2{
+        font-size: small;
+        width: 100px;
+        height: 30px;
+    }
+
+    #section-container2 h2{
+        font-size: medium;
+    }
+
+    #section-container2 .grid-container .card-1{
+        height: 300px;
+        width: 250px;
+    }
+
+    .grid-container .card-1 .card-1-body{
+        margin: 10px -5px;
+    }
+
+   .grid-container .card-1 .card-1-body h6{
+    font-size: x-small;
+   }
+
+   #section-container2 #ourdataplans{
+    font-size: small;
+    width: 120px;
+    
+   }
+
+   #section-container3 .sc-3-text h3{
+
+    font-size: medium;
+   }
+
+   #section-container3 .sc-3-text h5{
+    font-size: smaller;
+   }
+
+   .sc-3-items .sc3-item p{
+    font-size: x-small;
+   }
+
+   #section-container3 button{
+    font-size: small;
+    width: 110px;
+    height: 40px;
+   }
 
 
 
-
-
+    
 
     
 }
