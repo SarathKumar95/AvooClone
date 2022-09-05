@@ -1147,11 +1147,17 @@ footer{
     width: 110px;
     height: 40px;
    }
+ 
+}
 
+@media(max-width:500px){
+    .header-container{
+        height: 1100px;
+        padding-top: 10%;
+    }
 
-
-    
-
-    
+    .grid-container .card-1{
+        width: 350px;
+    }
 }
 
