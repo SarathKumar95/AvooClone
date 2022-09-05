@@ -94,23 +94,6 @@ html,body{
 }
 
 @media (max-width:1500px){
-    .hc-left h2{
-        font-size: xxx-large;
-    }
-
-    .hc-left p{
-        font-size: x-large;
-
-    }
-
-    #fiveg-img{
-        width: 400px;
-        margin: 30px auto;
-    }
-
-    
-
-
 
     .header-container{
         display: flex;
@@ -130,9 +113,9 @@ html,body{
 
     }
 
-    @media (max-width:475px){
+    @media (max-width:600px){
         .hc-left h2{
-            font-size: smaller;
+            font-size: small;
         }
 
         .hc-left p{
@@ -526,13 +509,14 @@ html,body{
     
     .connector{
         display: block;
-        margin:30px 200px;
+        margin:20px auto;
     }
 
     .sc3-item{
         width: max-content;
-        margin-left: 200px;
-        margin-right: 200px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
 
     }
 
@@ -568,7 +552,7 @@ html,body{
 
 #section-container3 button{
     display: block;
-    margin: 1% auto;
+    margin: 30% auto;
     width: 220px;
     height: 55px;
     background-color: #fff;
@@ -689,6 +673,7 @@ html,body{
     justify-content: center;
     gap: 30px;
     margin-top: 30px;
+    flex-wrap: wrap;
 }
 
 footer{
@@ -856,7 +841,177 @@ footer{
 }
 
 
-@media (max-width:850px){
+@media (max-width:550px){
+
+    .hc-left h2{
+        font-size: x-large;
+    }
+
+    .hc-left p{
+        font-size: small;
+    }
+
+    .hc-left{
+        margin: 5px 60px;
+    }
+
+    .hc-left img{
+        width: 200px;
+        margin-left: -20px;
+        margin-bottom: -80px;
+    }
+
+    .hc-right .card-one .card-body{
+        width: 300px;
+    }
+
+    .card-one .card-body h2{
+        font-size: xx-large;
+    }
+
+    .card-one .card-body h3{
+        font-size: x-large;
+    }
+
+    .card-one .card-body p{
+        font-size: medium;
+    }
+
+    .card-one .card-body button{
+        width: 250px;
+    }
+
+    .header-container{
+        height: 600px;
+    }
+
+    .container-text h2{
+        font-size: x-large;
+    }
+
+    .container-text h3{
+        font-size: medium;
+    }
+
+    #section-container1 .sc-left h3{
+        font-size: x-large;
+    }
+
+    #section-container1 .sc-left p{
+        font-size: small;
+    }
+
+    #section-container1 .sc-right #activate-button2{
+        font-size: smaller;
+        width: 120px;
+        margin-top: -20px;
+    }
+
+    #section-container2 h2{
+        font-size: x-large;
+    }
+
+    #section-container2 .card-1-body h3,h6{
+        font-size: medium;
+    }
+
+    #section-container2 #ourdataplans{
+        font-size: medium;
+        width: 130px;
+    }
+
+    #section-container3{
+        height: 1100px;
+    }
+
+
+    #section-container3 h3{
+        font-size: x-large;
+    }
+
+    #section-container3 h5{
+        font-size: medium;
+    }
+
+    #section-container3 .sc3-item img{
+        width: 20%;
+    }
+
+    #section-container3 .sc3-item p{
+        font-size: small;
+    }
+
+    #section-container3 button{
+        font-size: medium;
+        width: 130px;
+        
+    }
+
+    #section-container4 .faq-container h2{
+        font-size: large;
+        margin-bottom: 30px;
+    }
+
+    #section-container4 .accordion-button{
+        font-size: small;
+        width: auto;
+    }
+
+    #section-container4 .accordion-body p{
+        font-size: small;
+    }
+
+    #section-container4 button{
+        font-size: medium;
+        width: 130px;
+    }
+
+    .payment-container h2{
+        font-size: medium;
+    }
+
+    .payment-container img{
+        width: 60%;
+    }
+
+    .pc-left h4{
+        font-size: medium;
+    }
+
+    .pc-right h4{
+        font-size: medium;
+    }
+
+    .download-container h2{
+        font-size: large;
+        
+    }
+
+    .download-container h5{
+        font-size: small;
+    }
+
+    .download-container-img img{
+        width: 30%;
+    }
+
+    .footer-list ul lh{
+        font-size: medium;
+    }
+
+    .footer-list ul li{
+        font-size: small;
+    }
+
+    .email-container p{
+        font-size: small;
+    }
+
+
+
+
+
+
     
 }
 
