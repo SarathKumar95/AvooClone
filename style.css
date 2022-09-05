@@ -19,6 +19,7 @@ html,body{
     overflow-x: hidden;
 }
 
+
 /* header starts */
 
 
@@ -34,6 +35,12 @@ html,body{
     border-radius: 8px;
     margin-top:-5px;
     
+}
+
+@media (max-width:600px){
+    #logo{
+        width: 70%;
+    }
 }
 
 
@@ -56,13 +63,13 @@ html,body{
 }
 
 .hc-left h2{
-    font-size: var(--font-p);
+    font-size: xxx-large;
     font-weight: 900;
     
 }
 
 .hc-left p{
-    font-size: var(--font-s);
+    font-size: x-large;
     
 }
 
@@ -101,9 +108,7 @@ html,body{
         margin: 30px auto;
     }
 
-    .hc-right .card-body{
-        width: 425px;
-    }
+    
 
 
 
@@ -125,6 +130,17 @@ html,body{
 
     }
 
+    @media (max-width:475px){
+        .hc-left h2{
+            font-size: smaller;
+        }
+
+        .hc-left p{
+            font-size: small;
+        }
+
+    }
+
 
 
     .hc-right{
@@ -134,13 +150,8 @@ html,body{
         margin-top:-100px;
     }
 
-    .hc-right .card-one{
-        width: 500px;
-    }
 
-    .card-one .card-body{
-        margin: 0px auto;
-    }
+    
 }
 
 
@@ -150,11 +161,15 @@ html,body{
 
 .card-one{
     background-color: #fff;
-    width: 400px;
-    height: 500px;
-    border-radius: 10px;    
+    border-radius: 10px;
+    width: 300px;    
     
 }
+
+.card-one .card-features{
+    margin: 0px auto;
+}
+
 
 .card-body{
     display: flex;
@@ -181,13 +196,6 @@ html,body{
 .unlimited{
     font-weight: 900;
 }
-
-
-.card-one #to{
-    color: var(--text-dark-blue);
-}
-
-
 
 
 .card-one button{
@@ -218,9 +226,6 @@ html,body{
 }
 
 
-.card-features{
-    margin-right: 150px;
-}
 
 .card-features p{
     color: var(--text-dark-blue);
@@ -232,6 +237,32 @@ html,body{
     color: var(--button-textc);
     border:solid 2px var(--button-textc);
 
+}
+
+
+@media (max-width:475px){
+
+    .card-one h2{
+        font-size: xx-large;
+    }
+
+    .card-one h3{
+        font-size: x-large;
+    }
+
+    .card-one p {
+        font-size: medium;
+    }
+
+    .card-one button{
+        width: 200px;
+    }
+
+    .card-one{
+        width: 250px;
+        height: auto;
+
+    }
 }
 
 
@@ -298,7 +329,7 @@ html,body{
     
 }
 
-@media (max-width:850px){
+@media (max-width:1000px){
     #section-container1{
         height: 350px;
         text-align: center;
@@ -382,7 +413,7 @@ html,body{
 
 }
 
-@media (max-width:850px){
+@media (max-width:1000px){
     .grid-container{
         display:grid;
         grid-template-columns: auto;
@@ -487,7 +518,7 @@ html,body{
     margin-left: -125px;
 }
 
-@media (max-width:850px){
+@media (max-width:1000px){
 
     #section-container3{
         height: 1500px;
@@ -676,7 +707,7 @@ footer{
     font-weight: 900;
 }
 
-@media (max-width:850px){
+@media (max-width:1000px){
     .footer-list{
         flex-direction: column;
         text-align: center;
@@ -743,8 +774,8 @@ footer{
 .card-top{
     display: block;
     background-color: rgb(209, 224, 224);
-    width: 20rem;
-    margin-top: -20px;
+    width: 111%;
+    margin-top:-20px;
     text-align: center;
 }
 
@@ -761,6 +792,7 @@ footer{
     display: flex;
     gap: 10px;
     row-gap: 2px;
+    flex-wrap: wrap;
 }
 
 .card-inside p{
@@ -780,6 +812,12 @@ footer{
     }
 }
 
+
+.card-wrapper .price-card {
+    max-width: 320px;
+    min-height: 400px;
+}
+
 /* main ends */
 
 
@@ -792,3 +830,33 @@ footer{
         font-size: xx-large;
     }
 }
+
+@media (max-width:990px){
+
+    .card-wrapper .price-card h5{
+          font-size: large;
+    }
+
+    .card-wrapper .price-card h6{
+        font-size: medium;
+    }
+
+    .price-card .card-inside p{
+        font-size: small;
+
+    }
+
+    .price-card {
+        width: 300px;
+        height: 500px;
+        
+    }
+
+
+}
+
+
+@media (max-width:850px){
+    
+}
+
