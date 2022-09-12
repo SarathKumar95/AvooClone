@@ -25,6 +25,11 @@ html,body{
 
 
 /* nav here */
+
+#logo{
+    max-width: 80px;
+}
+
 .activate-button{
     width: 150px;
     height: 45px;
@@ -37,217 +42,31 @@ html,body{
     
 }
 
-@media (max-width:600px){
-    #logo{
-        width: 70%;
-    }
-}
 
 
 
 /* nav ends */
 
-.header-container{
-    display: flex;
-    background: var(--body-bg);
-    gap: 250px;
-    color: var(--text-white);
-    min-height: 850px;   
-}
 
-
-.hc-left{
-    margin-left: 10%;
-    
-    
-}
-
-.hc-left h2{
-    font-size: xxx-large;
-    font-weight: 900;
-    
-}
 
 .hc-left p{
-    font-size: x-large;
-    
+    font-size: 45px;
+    font-weight: 900;    
 }
 
-.hc-left,.hc-right{
-    margin-top: 5%;
-}
-
-
-@media (max-width:1600px) {
-    .hc-left{
-        margin-left: 50px;
-
-    }
-
-    .hc-right{
-        margin-left: -75px;
-    }
-
-    .header-container{
-        height: 900px;
-    }
-}
-
-@media (max-width:1500px){
-
-    .header-container{
-        display: flex;
-        flex-direction: column;
-        height: 1400px;
-        margin-bottom: 30px;
-    }
-
-    .hc-left{
-        display: block;
-        margin-left: auto;
-        margin-right: auto;
-    }
-
-    .hc-left img{
-        width: 70%;
-
-    }
-
-    @media (max-width:600px){
-        .hc-left h2{
-            font-size: small;
-        }
-
-        .hc-left p{
-            font-size: small;
-        }
-
-    }
-
-
-
-    .hc-right{
-        display: block;
-        margin-left:auto;
-        margin-right:auto;
-        margin-top:-100px;
-    }
-
-
-    
-}
 
 
 
 
 /* card starts */
 
-.card-one{
-    background-color: #fff;
-    border-radius: 10px;
-    width: 300px;    
-    
+.card .card-body button{
+    width: 300px;
 }
 
-.card-one .card-features{
-    margin: 0px auto;
+.card-list{
+    list-style-image: url(./images/check.png);
 }
-
-
-.card-body{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-
-.card-body h3{
-    background: rgb(41,182,76);
-    background: linear-gradient(121deg, rgba(41,182,76,1) 39%, rgba(22,91,94,1) 60%, rgba(12,48,55,1) 71%); 
-    background-clip: text;
-    -webkit-background-clip: text;
-    -webkit-text-fill-color:transparent;
-    font-weight: 900;
-}
-
-
-.card-title,.card-text,.card p{
-    color: var(--text-blue);
-    margin-top: 20px;
-    margin-bottom: 10px;
-}
-
-.unlimited{
-    font-weight: 900;
-}
-
-
-.card-one button{
-    width: 425px;
-    height: 65px;
-    background-color: var(--button-textc);
-    color: #fff;
-    border: var(--button-textc);
-    border-radius: 4px;
-    font-weight: bold;
-    font-size: large;
-    margin-bottom: 20px;
-    
-}
-
-.card-one h2{
-    font-size: xxx-large;
-    font-weight: 500;
-}
-
-.card-one h3{
-    font-size: xx-large;
-    background-image: var(--body-bg);
-}
-
-.card-one p{
-    font-size: large;
-}
-
-
-
-.card-features p{
-    color: var(--text-dark-blue);
-    white-space: nowrap;
-}
-
-.card button:hover{
-    background-color: #fff;
-    color: var(--button-textc);
-    border:solid 2px var(--button-textc);
-
-}
-
-
-@media (max-width:475px){
-
-    .card-one h2{
-        font-size: xx-large;
-    }
-
-    .card-one h3{
-        font-size: x-large;
-    }
-
-    .card-one p {
-        font-size: medium;
-    }
-
-    .card-one button{
-        width: 200px;
-    }
-
-    .card-one{
-        width: 250px;
-        height: auto;
-
-    }
-}
-
 
 /* card ends */
 
@@ -840,46 +659,7 @@ footer{
 
 }
 
-
-@media (max-width:550px){
-
-    .hc-left h2{
-        font-size: x-large;
-    }
-
-    .hc-left p{
-        font-size: small;
-    }
-
-    .hc-left{
-        margin: 5px 60px;
-    }
-
-    .hc-left img{
-        width: 200px;
-        margin-left: -20px;
-        margin-bottom: -80px;
-    }
-
-    .hc-right .card-one .card-body{
-        width: 300px;
-    }
-
-    .card-one .card-body h2{
-        font-size: xx-large;
-    }
-
-    .card-one .card-body h3{
-        font-size: x-large;
-    }
-
-    .card-one .card-body p{
-        font-size: medium;
-    }
-
-    .card-one .card-body button{
-        width: 250px;
-    }
+    /* hc-left ends */
 
     .header-container{
         height: 600px;

@@ -18,7 +18,7 @@
 
       <nav class="navbar navbar-expand-lg navbar-light" style="background:var(--body-bg)">
         <div class="container ms-5">
-          <a class="navbar-brand" href="#"><img src="./images/logo.webp" style="max-width: 80px;" id="logo"></a>
+          <a class="navbar-brand" href="#"><img src="./images/logo.webp" class="img-fluid" id="logo"></a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
@@ -49,14 +49,14 @@
         </div>
       </nav>
 
-        <div class="header-container">
+        <div class="header-container container-fluid d-inline-flex pt-4" style="background:var(--body-bg); color: white; " >
 
-            <div class="hc-left">
+            <div class="hc-left ms-5 mt-5">
 
-                <h2>We've some of the best 5G<br>deals, with Unlimited Data<br>& Voice from Leading<br>Networks in the UK.</h2>
+                <p>We've some of the best 5G<br>deals, with Unlimited Data<br>& Voice from Leading<br>Networks in the UK.</p>
 
                 <div id="hc-left-text">
-                    <p>Great bundles at amazing prices packed with Free International<br> call plans.</p>
+                    <h4>Great bundles at amazing prices packed with Free International<br> call plans.</h4>
                 </div>
 
                 <div id="fiveg-div">
@@ -65,24 +65,24 @@
 
             </div>
 
-            <div class="hc-right">
+            <div class="hc-right mt-5">
 
-                <div class="card-one container">
-                    <div class="card-body">
-                      <h2 class="card-title">Our Plan</h2>
-                      <h3 class="card-subtitle">£10.99 <span id="to">to</span> £ 25.99</h3>
-                      <p class="card-text">From 5GB to Unlimited Data</p>
-                      <button>View More</button>
-                       
-                      <div class="card-features">
-                        <p><i class="fa-solid fa-check" style="color: green;"></i>&nbsp;&nbsp;<span class="unlimited">Unlimited </span>UK Calls</p>
-                        <p><i class="fa-solid fa-check" style="color: green;"></i>&nbsp;&nbsp;<span class="unlimited">Unlimited </span>UK Texts</p>
-                        <p><i class="fa-solid fa-check" style="color:green;"></i>&nbsp;&nbsp;Flexible Data Packages</p>
-                        <p><i class="fa-solid fa-check" style="color: green;"></i>&nbsp;&nbsp;Free International Minutes</p>
-                      </div>
+              <div class="card" style="width: 22rem;">
+                <div class="card-body text-center" style="color:var(--text-blue);">
+                  <h5 class="card-title mb-3">Our Plans</h5>
+                  <h3 class="card-subtitle mb-2"><span>&#0163 10.99</span> to <span>&#0163 25.99</span></h3>
+                  <p class="card-text">From 5GB to Unlimited Data</p>
+                  <button class="btn btn-lg" style="background-color:var(--button-textc); color:white;">View More</button>
+                </div>
+                <ul class="card-list" style="color:var(--text-blue)">
+                  <li class="list-item mb-1"><strong>Unlimited</strong> UK Calls</li>
+                  <li class="list-item mb-1"><strong>Unlimited</strong> UK Texts</li>
+                  <li class="list-item mb-1">Flexible Data Packages</li>
+                  <li class="list-item mb-1">Free International Minutes</li>
+                </ul>
+                
+              </div>
 
-                    </div>
-                  </div>
 
             </div>
 
