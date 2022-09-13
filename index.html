@@ -15,51 +15,69 @@
 
     <header>
 
-      <nav class="navbar navbar-expand-lg" style="background:var(--body-bg)">
-        <div class="container ms-5">
-          <a class="navbar-brand" href="#"><img src="./images/logo.webp" class="img-fluid" id="logo"></a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
+      <nav class="navbar navbar-expand-lg navbar-light" style="background:var(--body-bg) ;">
+        <div class="container-fluid">
+          <div class="brand-div">
+            <a class="navbar-brand" href="#"><img src="./images/logo.webp" alt="logo"></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
           </div>
-          <div class="collapse navbar-collapse ms-3 me-5 mt-3" id="navbarSupportedContent">
-            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-              <li class="nav-item me-3">
-                <a class="nav-link active text-light fs-5" aria-current="page" href="#">Home</a>
-              </li>
-              <li class="nav-item me-3">
-                <a class="nav-link active text-light fs-5" href="#">Plans</a>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+              <!---
+              <li class="nav-item">
+                <a class="nav-link active" href="#">Close  </a>
               </li>
 
-              <li class="nav-item me-3" style="white-space:nowrap;">
-                <a class="nav-link active text-light fs-5" href="#">Why AVOO Mobile</a>
+            -->
+
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" href="#">Plans</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" href="#">Why Avoo Mobile</a>
               </li>
 
-              <li class="nav-item me-3">
-                <a class="nav-link active" href="#"><button class="activate-button" style="cursor:pointer;">Activate SIM</button></a>
+              <li class="nav-item">
+                <a class="nav-link active" href="#">Activate SIM</a>
               </li>
 
-              <li class="nav-item me-5">
-                <a class="nav-link active text-light fs-5" href="#">Login</a>
+              <li class="nav-item">
+                <a class="nav-link active" href="#">Login</a>
               </li>
-              </li>
+
+
+
             </ul>
           </div>
         </div>
       </nav>
 
-        <div class="header-container container-fluid d-flex pt-3 justify-content-around" style="background:var(--body-bg); color: white; " >
 
-            <div class="hc-left ms-5 mt-5">
+
+
+
+
+
+        <div class="hero container-fluid pb-5" style="background:var(--body-bg); color: white; " >
+
+            <div class="hc-left mt-5">
 
                 <p>We've some of the best 5G<br>deals, with Unlimited Data<br>& Voice from Leading<br>Networks in the UK.</p>
                 
                 <h5>Great bundles at amazing prices packed with Free International<br> call plans.</h5>
+
+                <img src="./images/hero_img_5g.png" alt="5g-img">
+                
             </div>
 
             <div class="hc-right  mt-5">
 
-              <div class="card" style="width: 23rem; height: 25rem;  border-radius:10px;">
+              <div class="card" style="width: 23rem; border-radius:10px;">
                 <div class="card-body text-center" style="color:var(--text-blue);">
                   <h5 class="card-title mb-3" style="font-weight:700;">Our Plans</h5>
                   <h2 class="card-subtitle mb-3" style="font-weight:900;"><span>&#0163 10.99 </span> to <span>&#0163 25.99 </span></h2>
@@ -89,30 +107,33 @@
 
     <main>
 
-        <div class="container">
+        <div class="section-1 container pb-5">
 
-            <div class="container-text">
-                <h1>More SIM Only Plans with<br><span id="span-h3">Flexible Choice</span></h1>
-                <h3>Start with any Plan of your choice and upgrade anytime</h3>
-            </div>
-              <button id="more-plans-button">More Plans</button>
+            <div class="sec-1-text pt-5">
+                <p>More SIM Only Plans with<br>Flexible Choice</p>
+                <h5>Start with any Plan of your choice and upgrade anytime</h5>
             </div>
 
-        </div>
-
-
-        <div id="section-container1">
-
-            <div class="sc-left">
-
-                <h3>With AVOO Sim you can upgrade any<br>time?</h3>
-                <p>You have the flexibility to choose a different plan before you activate your sim or after<br>contacting customer service 24/7</p>
+            <div class="text-center" id="button-div1">
+              <button class="btn btn-lg">More Plans</button>
+            </div>
 
 
             </div>
 
-            <div class="sc-right">
-                <button class="activate-button" id="activate-button2">Activate Sim</button>
+
+        <div class="section-2 container-fluid">
+
+            <div class="sec-2-left">
+
+                <p>With AVOO Sim you can upgrade any<br>time?</p>
+                <h5>You have the flexibility to choose a different plan before you activate your sim or after<br>contacting customer service 24/7</h5>
+
+
+            </div>
+
+            <div class="sec-2-right">
+              <button class="btn btn-lg">Activate SIM</button>
             </div>
 
 
@@ -444,7 +465,7 @@
 
     </footer>
     
-    
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
     <script>

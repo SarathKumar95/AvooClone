@@ -27,21 +27,11 @@ html,body{
 
 /* nav here */
 
-#logo{
-    max-width: 80px;
+.navbar-brand img{
+    width: 60px;
 }
 
-.activate-button{
-    width: 150px;
-    height: 45px;
-    color: var(--button-textc);
-    background-color: #fff;
-    border: none;
-    font-size: var(--button-fonts);
-    border-radius: 8px;
-    margin-top:-5px;
-    
-}
+
 
 
 
@@ -51,8 +41,13 @@ html,body{
 
 
 .hc-left p{
-    font-size: 40px;
+    font-size: var(--font-p);
     font-weight: 900;    
+}
+
+.hc-left img{
+    position: relative;
+    right: 120px;
 }
 
 
@@ -81,94 +76,57 @@ html,body{
 
 /* header end */
 
-/* main starts */
+/*-----------------------
+    Main starts
+ ------------------------- */
 
-
-.container-text{
-    text-align:center;
-        
+/* section-1  */
+.sec-1-text{
+    text-align: center;
 }
 
 
-
-.container-text h3{
-    font-weight: lighter;
-    margin: 35px auto;
-}
-
-.card-wrapper p{
-    color: black;
-}
-
-.card-wrapper button{
-    width: 220px;
-    height: 55px;
-    background-color: #fff;
-    color:var(--button-textc);
-    border: solid var(--button-textc);
-    border-radius: 4px;
+.sec-1-text p{
+    font-size: var(--font-p);
     font-weight: 900;
-    font-size: large;
-    margin-top: 20px;
-    display: block;
-    margin: auto;
-
-    
-}
-
-.card-wrapper button:hover{
-    color: white;
-    background-color: var(--button-textc);
-
-}
-
-#section-container1{
-    width: 100%;
-    height: 250px;
-    background: var(--body-bg);
-    margin-top: 50px;
-    color: #fff;
-    display: flex;
-    justify-content: space-evenly;
-    flex-wrap: wrap;
-    padding-top: 30px;
-    
-}
-
-@media (max-width:1000px){
-    #section-container1{
-        height: 350px;
-        text-align: center;
-    }
-}
-
-
-
-#section-container1 h3{
-    font-size: xx-large;
-    font-weight: 900;
-    padding-top: 15px;
-}
-
-#section-container1 p{
-    margin-top: 5px;
-    font-size: large;
-}
-
-#activate-button2{
     color: var(--text-dark-blue);
-    font-weight: 900;
-    padding-top: 5px;
-    margin-top: 50px;
-    width: 180px;
-    height: 50px;
-
+    margin-bottom: 1px;
 }
 
-#activate-button2:hover{
-    color: #fff;
+.section-1 #button-div1 button{
+    border: 2px solid var(--button-textc);
+    color: var(--button-textc);
+    font-weight: 700;
+    width: 200px;
+}
+
+.section-1 #button-div1 button:hover{
     background-color: var(--button-textc);
+    color: #fff;
 }
+
+/* section-1 ends */
+
+
+/* section-2 */
+.section-2{
+    background: var(--body-bg);
+}
+
+
+.sec-2-left p{
+    font-size: var(--font-p);
+    font-weight: 900;
+}
+
+
+
+/* section-2 styled */
+
+
+
+/* MAIN ENDS*/
+
 
 
 .card-1{

@@ -1,7 +1,7 @@
 :root{
-    --font-p:50px;
-    --fonts-s:30px;
-    --button-fonts:18px;
+    --font-p:45px;
+    --font-s:25px;
+    --button-font:20px;
     --body-bg: linear-gradient(108deg, rgba(72,170,104,1) 45%, rgba(65,148,159,1) 84%);
     --button-textc:#34bb54;
     --text-blue:#004a80;
