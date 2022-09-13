@@ -111,13 +111,33 @@ html,body{
 /* section-2 */
 .section-2{
     background: var(--body-bg);
+    display:flex;
+    justify-content:center;
+    align-items: center;
+    gap:100px;
 }
 
+.sec-2-left{
+    color: #fff;
+}
 
-.sec-2-left p{
-    font-size: var(--font-p);
+.sec-2-left h2{
     font-weight: 900;
 }
+
+
+.sec-2-right button{
+    background-color: #fff;
+    color: var(--text-dark-blue);
+    font-weight: 700;
+    font-size: var(--button-font);
+}
+
+.sec-2-right button:hover{
+    color: #fff;
+    background-color: #46af5a;
+}
+
 
 
 
