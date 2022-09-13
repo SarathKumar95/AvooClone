@@ -112,6 +112,7 @@ html,body{
 .section-2{
     background: var(--body-bg);
     display:flex;
+    flex-wrap: wrap;
     justify-content:center;
     align-items: center;
     gap:100px;
@@ -139,115 +140,54 @@ html,body{
 }
 
 
-
-
 /* section-2 styled */
+
+
+/* section-3 starts */
+
+
+.sec-3-head p{
+    font-size: var(--font-p);
+    font-weight: 900;
+}
+
+.section-3 button{
+    background-color: #fff;
+    border: 2px solid var(--button-textc);
+    color: var(--button-textc);
+    font-weight:700;
+    width: 200px;
+}
+
+.section-3 button:hover{
+    background-color: var(--button-textc);
+    color: #fff;
+}
+
+
+.section-3 .container .row .card{
+    width:450px;
+    height: 300px;
+
+}
+
+
+.section-3 .container .row .card img{
+    width: 90px;
+}
+
+.section-3 .container .row .card .card-body h3{
+    font-weight: 700;
+}
+
+
+/* section-3 styled */
 
 
 
 /* MAIN ENDS*/
 
 
-
-.card-1{
-    border: 1px solid grey;
-    padding-left: 10px;
-    padding-top: 10px;
-}
-
-.card-1 img{
-    margin-bottom: 12px;
-}
-
-.card-1 .card-1-body{
-    padding-right: 100px;
-}
-
-.card-1 .card-title{
-    margin-bottom: -10px;
-    font-size: x-large;
-    color: var(--text-dark-blue);
-
-}
-
-.card-1 .card-text{
-    font-size: smaller;
-    white-space: nowrap;
-    margin-left: 8%;
-    color: #000;
-}
-
-#section-container2 h2{
-    font-size: xxx-large;
-    font-weight: 900;
-    text-align: center;
-    color: var(--text-dark-blue);
-    margin-bottom: 50px;
-
-}
-
-#section-container2{
-    margin-top: 20px;
-}
-
-.grid-container{
-    display: grid;
-    grid-template-columns: repeat(2,400px);
-    justify-content: center;
-
-}
-
-@media (max-width:1000px){
-    .grid-container{
-        display:grid;
-        grid-template-columns: auto;
-
-    }
-
-    .grid-container .card-1{
-        height: 250px;
-        
-    }
-}
-
-
-
-.grid-container .card-1{
-    width: 25rem;
-
-}
-
-#section-container2 button{
-    display: block;
-    margin: 20px auto;
-    width: 220px;
-    height: 55px;
-    background-color: #fff;
-    color:var(--button-textc);
-    border: solid var(--button-textc);
-    border-radius: 4px;
-    font-weight: 900;
-    font-size: large;
-
-}
-
-#section-container2 button:hover{
-    background-color: var(--button-textc);
-    color: white;
-}
-
-#section-container3{
-    height: 700px;
-    background: var(--body-bg);
-    color: #fff;
-
-}
-
-@media (max-width:1130px){
-    #section-container3{
-        height: 1500px;
-    }
-}
 
 
 
