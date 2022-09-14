@@ -166,9 +166,7 @@ html,body{
 
 
 .section-3 .container .row .card{
-    width:450px;
     height: 300px;
-
 }
 
 
@@ -179,6 +177,7 @@ html,body{
 .section-3 .container .row .card .card-body h3{
     font-weight: 700;
 }
+
 
 
 /* section-3 styled */
