@@ -291,48 +291,8 @@ html,body{
 
 /* carousel starts */
 
-.owl-carousel .item .card{
-    width: 20rem;
-}
-
-.item .card .card-head{
-    background-color: aliceblue;
-}
-
-.item .card .card-head h2{
-    font-weight: 900;
-    color: var(--button-textc);
-}
-
-.item .card-body h2{
-    font-weight:900;
-}
-
-.item .card .card-footer-carousel{
-    margin-left: -20px;
-    margin-bottom: 20px;
-}
-
-
-.item .card .card-footer-carousel ul{
-    list-style: none;
-    white-space: nowrap;
-}
-
-.item .card .card-footer-carousel ul li{
-    font-size: 16px;
-}
-
-#button-div5 button{
-    color: var(--button-textc);
-    border: 2px solid var(--button-textc);
-    font-weight: 700;
-    width: 200px;
-}
-
-#button-div5 button:hover{
-    background-color: var(--button-textc);
-    color: #fff;
+.carousel-card{
+    border: 1px solid grey;
 }
 
 

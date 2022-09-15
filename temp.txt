@@ -1,110 +1,37 @@
-            <div class="grid-container">
+<div class="card">
+                  <div class="card-head text-center pt-5 pb-3">
+                    <h2>5GB UK Plan</h2>
+                  </div>
+                  <div class="card-body text-center">
+                    <h2>&#0163 13.99</h2>
+                    <h6>Monthly</h6>
+                    <h6>Network Coverage: O2</h6>
+                    <hr>
 
-                <div class="card-1" >
-                    <img class="card-img-top" src="./images/number.webp" alt="Card image cap" style="width: 70px;">
-                    <div class="card-1-body">
-                      <h3 class="card-title">Love to Keep your Number</h3>
-                      <h6 class="card-text">This is easy and can happen with few texts.Follow<br>the steps given under Moving Your Number</h6>
-                    </div>
                   </div>
 
-                  <div class="card-1">
-                    <img class="card-img-top" src="./images/credit.webp" alt="Card image cap" style="width: 70px;">
-                    <div class="card-1-body">
-                      <h3 class="card-title">No Fixed Contract. No Credit Check</h3>
-                      <h6 class="card-text">You are free to join and leave when you like with no<br>long-term commitment </h6>
-                    </div>
+
+                  <div class="card-footer-carousel d-flex">
+
+                    <ul class="card-list-left">
+
+                      <li>Unlimited UK Calls</li>
+                      <li style="text-decoration:underline;">500 Free Intl Mins</li>
+
+                    </ul>
+
+                    <ul class="card-list-right">
+
+                      <li>Unlimited UK SMS</li>
+                      <li>Free EU roaming</li>
+
+                    </ul>
+
                   </div>
 
-                  <div class="card-1" >
-                    <img class="card-img-top" src="./images/free.webp" alt="Card image cap" style="width: 70px;">
-                    <div class="card-1-body">
-                      <h3 class="card-title">Free & Very Affordable International<br>Minutes</h3>
-                      <h6 class="card-text">All our plans are with different bundle of<br>international minutes covering 30 minutes.And<br>exceptionally affordable rates for all other countries</h6>
-                    </div>
+                  <div class="text-center mb-5" id="button-div5">
+
+                    <button class="btn btn-lg">Select</button>
+
                   </div>
-
-                  <div class="card-1" >
-                    <img class="card-img-top" src="./images/truck.webp" alt="Card image cap" style="width: 70px;">
-                    <div class="card-1-body">
-                      <h3 class="card-title">Quick SIM delivery</h3>
-                      <h6 class="card-text">On order confirmation with Customer Service,you'll<br>get your new SIM card within tow working days, <br>Free of Charge</h6>
-                    </div>
-                  </div>
-
-                  <div class="card-1">
-                    <img class="card-img-top" src="./images/fees.webp" alt="Card image cap" style="width: 70px;">
-                    <div class="card-1-body">
-                      <h3 class="card-title">No Hidden Charges</h3>
-                      <h6 class="card-text">With AVOO Customer Service and Plans you won't<br>encounter any hidden charges and exceprional<br>charges for local calls and SMS. The plans are<br>tailored for high value customers.</h6>
-                    </div>
-                  </div>
-
-                  <div class="card-1">
-                    <img class="card-img-top" src="./images/sim-card.webp" alt="Card image cap" style="width: 70px;">
-                    <div class="card-1-body">
-                      <h3 class="card-title">All Fit Sim</h3>
-                      <h6 class="card-text">Nano, Micro and Standard sizes arrive in a single<br>pack to match your phone</h6>
-                    </div>
-                  </div>
-            </div>
-
-
-
-            .card-1{
-    border: 1px solid grey;
-    padding-left: 10px;
-    padding-top: 10px;
-}
-
-.card-1 img{
-    margin-bottom: 12px;
-}
-
-.card-1 .card-1-body{
-    padding-right: 100px;
-}
-
-.card-1 .card-title{
-    margin-bottom: -10px;
-    font-size: x-large;
-    color: var(--text-dark-blue);
-
-}
-
-.card-1 .card-text{
-    font-size: smaller;
-    white-space: nowrap;
-    margin-left: 8%;
-    color: #000;
-}
-
-
-.grid-container{
-    display: grid;
-    grid-template-columns: repeat(2,400px);
-    justify-content: center;
-
-}
-
-.grid-container .card-1{
-    width: 25rem;
-
-}
-
-
-#section-container3{
-    height: 700px;
-    background: var(--body-bg);
-    color: #fff;
-
-}
-
-@media (max-width:1130px){
-    #section-container3{
-        height: 1500px;
-    }
-}
-
-
 
