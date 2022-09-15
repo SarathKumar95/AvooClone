@@ -293,8 +293,102 @@ html,body{
 
 .carousel-card{
     border: 1px solid grey;
+    border-radius: 16px;
 }
 
+.carousel-card .card-head{
+    background-color: azure;
+    border-radius: 16px;
+}
+
+.carousel-card .card-head h4{
+    font-weight: 900;
+    color: var(--button-textc);
+}
+
+.carousel-card .card-foot{
+    color: var(--text-dark-blue);
+}
+
+.carousel-card .card-body h2{
+    font-weight: 900;
+}
+
+
+
+
+.card-foot ul li{
+    list-style-type: none;
+}
+
+
+.carousel-card .card-button button{
+    border: 1px solid var(--button-textc);
+    color:var(--button-textc);
+    width: 200px;
+    font-weight: 700;
+}
+
+.carousel-card .card-button button:hover{
+    background-color: var(--button-textc);
+    color: #fff;
+}
+
+#unlimited-plan, #unlimited-europe-plan{
+    background-color:#069f9d;
+}
+
+#unlimited-europe-plan .card-head{
+    background-color: #048d8b;
+} 
+
+#unlimited-europe-plan .card-head h4{
+    color: #fff;
+}
+
+#unlimited-europe-plan .card-body{
+    color: #fff;
+}
+
+#unlimited-europe-plan .card-foot{
+    color: #fff;
+}
+
+#unlimited-europe-plan .card-button button{
+    color: #069f9d;
+    border: 1px solid #069f9d;
+    background-color: #fff;
+}
+
+.carousel-card .card-button{
+    margin-top: 20px;
+}
+
+#unlimited-plan .card-head h4{
+    color: #fff;
+}
+
+#unlimited-plan{
+    background-color: #069f9d;
+}
+
+#unlimited-plan .card-head{
+    background-color: #048d8b;
+}
+
+#unlimited-plan .card-body{
+    color: #fff;
+}
+
+#unlimited-plan .card-foot{
+    color: #fff;
+}
+
+#unlimited-plan .card-button button{
+    color: #069f9d;
+    background-color: #fff;
+    border: 1px solid #fff;
+}
 
 /* carousel styled */
 
