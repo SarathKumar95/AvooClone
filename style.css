@@ -298,7 +298,8 @@ html,body{
 
 .carousel-card .card-head{
     background-color: azure;
-    border-radius: 16px;
+    border-top-left-radius: 16px;
+    border-top-right-radius:16px;
 }
 
 .carousel-card .card-head h4{
