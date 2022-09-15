@@ -30,9 +30,6 @@ html,body{
 
 
 
-
-
-
 /* nav ends */
 
 
@@ -47,6 +44,10 @@ html,body{
     right: 120px;
 }
 
+.hc-right .card .card-body button:hover {
+    background-color: #fff;
+    color: var(--button-textc);
+}
 
 
 
