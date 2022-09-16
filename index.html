@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="variable.css">
     <link rel="stylesheet" href="style.css">
     <script src="https://kit.fontawesome.com/1ab0e88673.js" crossorigin="anonymous"></script>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css" integrity="sha512-sMXtMNL1zRzolHYKEujM2AqCLUR9F2C4/05cdbxjjLSRvMQIciEPCQZo++nk7go3BtSuK9kfa/s+a4f4i5pLkw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
@@ -16,47 +16,40 @@
 
     <header>
 
-      <nav class="navbar navbar-expand-lg navbar-light pt-3 pe-5 ps-5" style="background:var(--body-bg) ;">
+
+      <nav class="navbar navbar-expand-lg pb-3 pt-3">
         <div class="container-fluid">
-          <div class="brand-div">
-            <a class="navbar-brand" href="#"><img src="./images/logo.webp" alt="logo"></a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-              <span class="navbar-toggler-icon"></span>
-            </button>
-          </div>
+          <a class="navbar-brand" href="#"><img src="./images/logo.webp" alt="logo"></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
-              <!---
-              <li class="nav-item">
-                <a class="nav-link active" href="#">Close  </a>
+              <li class="nav-item me-3">
+                <a class="nav-link active" style="color:#fff; font-size:18px"  aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item me-3">
+                <a class="nav-link active" style="color:#fff; font-size:18px" href="#">Plans</a>
+              </li>
+              <li class="nav-item me-3">
+                <a class="nav-link active" style="color:#fff; font-size:18px" href="#">Why AVOO Mobile</a>
               </li>
 
-            -->
-
-              <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#" style="color:#fff; font-size:20px;">Home</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link active" href="#" style="color:#fff; font-size:20px;">Plans</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link active" href="#" style="color:#fff; font-size:20px;">Why Avoo Mobile</a>
+              <li class="nav-item me-3" id="button-link">
+                <a class="nav-link active" style="color:#fff; font-size:18px" href="#"><button class="btn btn-lg">Activate SIM</button></a>
               </li>
 
-              <li class="nav-item">
-                <a class="nav-link active" href="#"  style="color:#fff; font-size:20px;">Activate SIM</a>
+              <li class="nav-item me-3">
+                <a class="nav-link active" style="color:#fff; font-size:18px" href="#">Log In</a>
               </li>
 
-              <li class="nav-item">
-                <a class="nav-link active" href="#" style="color:#fff; font-size:20px;">Login</a>
-              </li>
-
-
-
+              
+              
             </ul>
           </div>
         </div>
       </nav>
+
 
 
 
@@ -802,8 +795,8 @@
 
     </footer>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.1/jquery.min.js" integrity="sha512-aVKKRRi/Q/YV+4mjoKBsE4x3H+BkegoM/em46NNlCqNTmUYADjBbeNefNxYV7giUp0VxICtqdrbqU7iVaeZNXA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
-    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.min.js" integrity="sha384-7VPbUDkoPSGFnVtYi0QogXtr74QeVeeIs99Qfg5YCF+TidwNdjvaKZX19NZ/e6oz" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js" integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
     <script>
           $('.owl-carousel').owlCarousel({

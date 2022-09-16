@@ -24,9 +24,24 @@ html,body{
 
 /* nav here */
 
-.navbar-brand img{
-    width: 60px;
+.navbar{
+    background: var(--body-bg);
 }
+
+.navbar-brand img{
+    max-width: 80px;
+}
+
+.nav-item .nav-link button{
+    background-color: #fff;
+    color:var(--button-textc);
+}
+
+#button-link{
+    margin-top: -10px;
+}
+
+
 
 
 
