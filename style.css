@@ -313,6 +313,7 @@ html,body{
 .carousel-card{
     border: 1px solid grey;
     border-radius: 16px;
+    width: 400px;
 }
 
 .carousel-card .card-head{
@@ -477,4 +478,19 @@ footer{
 
 /* MAIN ENDS*/
 
+@media (max-width:1000px){
+    .carousel-card{
+        width: 300px;
+    }
 
+    .section-4 .sec-4-image{
+        flex-direction: column;
+        gap: 100px;
+    }
+
+    .section-4 .sec-4-image .connector{
+        display: none;
+        
+    }
+
+}
