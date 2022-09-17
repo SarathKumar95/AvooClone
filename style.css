@@ -274,11 +274,16 @@ html,body{
 
 /* section-5 styled */
 
+.payment-container .payment-sub{
+    flex-wrap: wrap;
+}
+
+
 
 
 .payment-container p{
 
-    font-size: var(--font-p);
+    font-size: clamp(var(--font-s),var(--font-p),60px);
     font-weight: 900;
 }
 
@@ -313,7 +318,6 @@ html,body{
 .carousel-card{
     border: 1px solid grey;
     border-radius: 16px;
-    width: 400px;
 }
 
 .carousel-card .card-head{
@@ -414,13 +418,6 @@ html,body{
 /* carousel styled */
 
 
-#socialmedia{
-    display: flex;
-    justify-content:flex-end;
-    gap: 10px;
-    padding-right: 10%;
-    
-}
 
 #socialmedia button{
     height: 35px;
@@ -439,22 +436,15 @@ html,body{
 
 
 
-
-
 footer{
     color: var(--text-dark-blue);
 }
 
-.footer-list{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
-    margin-top: 10px;
-}
 
 .footer-list lh{
-    font-size: x-large;
+    font-size: clamp(var(--button-font),25px,30px);
     font-weight: 900;
+    margin-bottom: 20px;
 }
 
 
@@ -463,12 +453,6 @@ footer{
     line-height: 30px;
 }
 
-
-
-.email-container{
-    text-align: center;
-    margin-top: 20px;
-}
 
 .email-container p{
     color: var(--text-dark-blue);
