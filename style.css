@@ -56,15 +56,15 @@ html,body{
     font-size: clamp(var(--font-s),var(--font-p),60px);
     font-weight: 900;    
 }
-/*
-.hc-left img{
-    position: relative;
-    right: 120px;
-}*/
+#view-more-button{
+    background-color:var(--button-textc); 
+    color:white;
+}
 
-.hc-right .card .card-body button:hover {
-    background-color: #fff;
+#view-more-button:hover{
+    background-color: white;
     color: var(--button-textc);
+    border: 2px solid var(--button-textc);
 }
 
 
@@ -241,17 +241,14 @@ html,body{
 /* section-5 here */
 
 .faq-container p{
-    font-size: var(--font-p);
+    font-size: clamp(var(--font-s),var(--font-p),60px);
     font-weight: 900;
 }
 
-.accordion{
-    width:100%;
-}
 
 .accordion-header button{
     font-weight: 700;
-    font-size: var(--font-s);
+    font-size: clamp(15px,20px,22px);
 }
 
 .accordion-body p {
@@ -441,10 +438,13 @@ footer{
 }
 
 
+
+
+
 .footer-list lh{
     font-size: clamp(var(--button-font),25px,30px);
     font-weight: 900;
-    margin-bottom: 20px;
+    
 }
 
 
@@ -455,8 +455,14 @@ footer{
 
 
 .email-container p{
+
+    font-size: clamp(15px,20px,22px);
     color: var(--text-dark-blue);
-    line-height: 5px;
+    line-height: 10px;
+}
+
+.section-3 .container .card .card-body{
+        line-height: 20px;
 }
 
 
@@ -477,4 +483,39 @@ footer{
         
     }
 
+    .footer-list{
+        margin-left: 20px;
+    }
+
+}
+
+
+@media (max-width:768px){
+
+    .hc-left img {
+        width: 300px;
+        margin-top:20px; 
+    }
+
+    .footer-list{
+        flex-direction: column;
+    }
+
+    
+}
+
+@media (max-width:576px){
+    .hc-left p{
+        font-size: 25px;
+    }
+
+    .hc-left img{
+        width: 220px;
+    }
+
+    .email-container{
+        padding-bottom: 20px;
+    }
+
+    
 }
