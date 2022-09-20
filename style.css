@@ -465,6 +465,15 @@ footer{
         line-height: 20px;
 }
 
+.owl-carousel .carousel-card .card-foot{
+    margin: 2px -17px;
+}
+
+.owl-carousel .carousel-card .card-foot ul li{
+    font-size: 14px;
+    line-height: 30px;
+}
+
 
 /* MAIN ENDS*/
 
@@ -519,6 +528,10 @@ footer{
 
     .email-container p{
         font-size: 13px;
+    }
+
+    .navbar-brand img{
+        width: 60px;
     }
 
     
